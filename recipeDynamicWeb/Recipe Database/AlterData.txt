@@ -1,0 +1,9 @@
+
+GO
+ALTER TABLE [dbo].[Ingredients]  WITH CHECK ADD  CONSTRAINT [FK_Ingredients_NameOfIngredientID] FOREIGN KEY([NameOfIngredientID])
+REFERENCES [NameOfIngredients] ([NameOfIngredientID])
+
+
+GO
+ALTER TABLE [dbo].[Recipes]  WITH CHECK ADD  CONSTRAINT [FK_Recipes_CategoryID] FOREIGN KEY([CategoryID])
+REFERENCES [Category] ([CategoryID])
