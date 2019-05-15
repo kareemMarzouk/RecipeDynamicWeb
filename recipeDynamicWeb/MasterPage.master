@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+    <div class="banner">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <asp:RadioButton ID="RadioButton1" Text="Dark" runat="server" />
+        <asp:RadioButton ID="RadioButton2" Text="Light" runat="server" />
+        <asp:RadioButton ID="RadioButton3" Text="Normal" runat="server" />
+        <br />
+        <asp:Button ID="Button1" runat="server" Text="Set" OnClick="Button1_Click" />
+        <br />
+        <a href="Default.aspx">Home</a> <br />
+        <a href="recipe.aspx">Recipe</a> <br />
+        <a href="addRecipe.aspx">Add Recipe</a> <br />
+        <a href="search.aspx">Search</a> <br />
+        <a href="collectionOfRecipe.aspx"> Collection Of Recipe</a>
+    </div>
+        <div class="footer">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿
+.body{
+    background-image:url("CarynEsplin-TheFlyingSalad-FoodPhotography1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+ }
+.banner {
+    background-image:url("tasty-recipes-logo-retina.png");
+    width:550px;
+    background-repeat:no-repeat;
+    color:black;
+    font-size:x-large;
+    font-family:'Informal Roman';
+}
+.footer{
+    color:black;
+    font-family:'Comic Sans MS';
+    font-size:18px;
+    border-top:solid;
+
+}
