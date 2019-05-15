@@ -1,0 +1,5 @@
+
+drop table dbo.Recipes;
+drop table dbo.Category;
+drop table dbo.Ingredients;
+drop table dbo.NameOfIngredients;
